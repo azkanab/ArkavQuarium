@@ -14,7 +14,6 @@ class MakananIkan : public Benda {
 		bool operator == (const MakananIkan&);
 		void moveDown();
 	private :
-		const int kecepatan;
 };
 
 #endif
