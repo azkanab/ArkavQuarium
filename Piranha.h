@@ -12,7 +12,7 @@ class Piranha : public Ikan {
 		Piranha(int,int);
 		~Piranha();
 		bool operator == (const Piranha&);
-		void gerak();
+		// void gerak();
 		void makan();
 		Guppy getGuppyTerdekat(LinkedList<Guppy>);
 		Koin buatKoin();
