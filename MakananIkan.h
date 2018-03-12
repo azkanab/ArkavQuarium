@@ -12,8 +12,7 @@ class MakananIkan : public Benda {
 		~MakananIkan();
 
 		bool operator == (const MakananIkan&);
-		void makananJatuh();
-		void dimakanIkan(); // mungkin gak dibutuhkan?
+		void moveDown();
 	private :
 		const int kecepatan;
 };
